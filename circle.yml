@@ -5,7 +5,7 @@ deployment:
   dockerhub:
     branch: master
     commands:
-      - ./deploy.sh
+      - sh ./deploy.sh
 
 test:
   override:    
